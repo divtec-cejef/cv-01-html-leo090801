@@ -7,6 +7,29 @@ body {
     width: 10%;
     height: 10%;
 }
+nav li {
+    font-weight: 700;
+    font-size: 20px;
+    border: #fff solid 3px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 1rem;
+    display: inline;
+    margin-right: 10px;
+}
+nav li:hover {
+    background-color: black;
+}
+nav a {
+    text-decoration: none;
+}
+/*retire la puce de tous les ul*/
+nav ul{
+    list-style: none;
+    margin-right: auto;
+}
+
+
 /* roboto-regular - latin */
 @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
