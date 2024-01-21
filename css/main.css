@@ -2,10 +2,10 @@ body {
     font-family: "Roboto", sans-serif;
     background-color: #4f4f4f;
     color: #fff;
+    text-align: center;
 }
 .profile-image {
-    width: 10%;
-    height: 10%;
+    width: 120px;
 }
 nav li {
     font-weight: 700;
@@ -18,17 +18,21 @@ nav li {
     margin-right: 10px;
 }
 nav li:hover {
-    background-color: black;
+    border-color: cornflowerblue;
 }
 nav a {
     text-decoration: none;
+    color: #429d76;
 }
 /*retire la puce de tous les ul*/
-nav ul{
+ul{
     list-style: none;
     margin-right: auto;
 }
-
+/*pour selectionner tous les li sans ceux de la nav*/
+main li {
+    line-height: 25px;
+}
 
 /* roboto-regular - latin */
 @font-face {
