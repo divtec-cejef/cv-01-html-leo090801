@@ -1,12 +1,37 @@
+html {
+    font-size: 20px;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     background-color: #4f4f4f;
     color: #fff;
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px 10px;
+    border: white solid 5px;
+    border-radius: 5px;
+}
+header {
+    padding-left: 50px;
+}
+
+h1 {
+    margin-top: 50px;
+    color: #48cae4;
+    font-size: 2.5rem;
     text-align: center;
+    text-decoration: underline;
+}
+h2 {
+    font-size: 1.5em;
 }
 .profile-image {
     width: 120px;
+    text-align: center;
 }
+
 nav li {
     font-weight: 700;
     font-size: 20px;
@@ -14,24 +39,30 @@ nav li {
     border-radius: 10px;
     padding: 5px;
     margin-bottom: 1rem;
-    display: inline;
+    text-align: center;
     margin-right: 10px;
+    display: inline;
 }
 nav li:hover {
     border-color: cornflowerblue;
 }
 nav a {
     text-decoration: none;
+}
+a {
     color: #429d76;
 }
 /*retire la puce de tous les ul*/
-ul{
-    list-style: none;
+ul {
     margin-right: auto;
+}
+nav ul {
+    list-style: none;
 }
 /*pour selectionner tous les li sans ceux de la nav*/
 main li {
     line-height: 25px;
+    font-size: 1.2rem;
 }
 
 /* roboto-regular - latin */
