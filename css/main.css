@@ -102,3 +102,8 @@ footer {
     font-weight: 700;
     src: url('../font/roboto-v30-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+@media screen and (max-width: 600px) {
+    nav li {
+        display: block;
+    }
+}
