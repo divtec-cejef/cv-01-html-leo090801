@@ -9,9 +9,9 @@ body {
     max-width: 700px;
     margin-right: auto;
     margin-left: auto;
-    padding: 5px 10px;
+    padding: 5px 50px 10px;
     border: white solid 5px;
-    border-radius: 5px;
+    border-radius: 50px;
     background-image: url("../img/background-bowser.jpg");
     background-blend-mode: multiply;
     background-position: center top;
@@ -19,7 +19,6 @@ body {
 header {
     text-align: center;
 }
-
 h1 {
     margin-top: 50px;
     color: #48cae4;
@@ -51,6 +50,7 @@ nav li {
     margin-right: 10px;
     display: inline;
     background-color: #4f4f4f;
+    width: 50%;
 }
 nav li:hover {
     border-color: cornflowerblue;
@@ -64,6 +64,9 @@ a {
 /*retire la puce de tous les ul*/
 ul {
     margin-right: auto;
+}
+header ul {
+    display: inline;
 }
 section ul {
     padding-top: 10px;
@@ -102,7 +105,7 @@ footer {
     font-weight: 700;
     src: url('../font/roboto-v30-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     nav li {
         display: block;
     }
